@@ -12,7 +12,7 @@ public class VoitureTest {
     @Test
     void creerVoiture() {
         // Given
-        String marque Attendue = "Renault";
+        String marqueAttendue = "Renault";
         int prixAttendu = 100000;
 
         // When
