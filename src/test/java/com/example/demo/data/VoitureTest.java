@@ -11,14 +11,14 @@ public class VoitureTest {
 
     @Test
     void creerVoiture() {
-        // Given
-        String marque Attendue = "Renault";
+        
+        String marqueAttendue = "Renault";
         int prixAttendu = 100000;
 
-        // When
+        
         Voiture voiture = new Voiture(marqueAttendue, prixAttendu);
 
-        // Then
+        
         assertEquals(marqueAttendue, voiture.getMarque(), "La marque doit être Renault");
         assertEquals(prixAttendu, voiture.getPrix(), "Le prix doit être 100000");
         assertEquals(0, voiture.getId(), "L'id par défaut doit être 0");
